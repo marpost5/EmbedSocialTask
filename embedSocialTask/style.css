@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+.profilePic {
+    border-radius: 50%;
+}
+.heart
+{
+    margin-left: 100px;
+    width: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding:25px 20px;
+}
+
+
+.container .box-container .box{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 5px;
+    border-style: groove;
+
+}
+.container .box-container .box .image{
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.container .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.container .box-container .box .content h3{
+    font-size: 20px;
+    color:#334;
+}
+
+.container .box-container .box .content p{
+    font-size: 15px;
+    color:#777;
+    line-height: 2;
+    padding:15px 0;
+}
+
+#load-more{
+    margin-top: 20px;
+    display: inline-block;
+    padding:13px 30px;
+    border:1px solid #334;
+    color:#334;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+
+@media (max-width:1024px){
+    .container .box-container .box .image{
+        height: 200px;
+    }
+
+    .container .box-container .box .content p{
+        font-size: 12px;
+    }
+
+    .container .box-container .box .content .icons span{
+        font-size: 12px;
+    }
+
+}
